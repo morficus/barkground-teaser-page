@@ -24,6 +24,16 @@
     padding: 0 15px;
 }
 
+.footer {
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.social-icon {
+    height: 20px;
+}
+
 .header {
     height: 80px;
     border-bottom: 5px solid #fbfbfb;
@@ -45,6 +55,10 @@
     font-weight: bold;
     padding-top: 15px;
     cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .request-button:hover {
@@ -241,5 +255,9 @@ p {
 
     .get-your-check hr {
         width: 150px;
+    }
+
+    .social-icon {
+        height: 40px;
     }
 }

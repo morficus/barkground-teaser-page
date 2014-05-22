@@ -1,4 +1,5 @@
-@import "../libs/bootstrap/dist/css/bootstrap.min.css";
+@import url("../libs/bootstrap/dist/css/bootstrap.min.css");
+@import url("responsive-modals.css");
 
 @font-face {
     font-family: 'Hand Of Sean (Demo)';
@@ -108,7 +109,7 @@ p {
     text-align: center;
 }
 
-.how-it-works .title {
+.how-it-works .title, .modal .title {
     color: #186063;
 }
 

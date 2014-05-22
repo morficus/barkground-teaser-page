@@ -1,0 +1,75 @@
+
+.modal {
+    overflow: hidden;
+}
+
+.modal-dialog {
+
+    /* adjust "top" and "bottom" attributes to control the height */
+    top: 5%;
+    bottom: 50%;
+
+    /* adjust "left" and "right" attributes to control the width */
+    left: 15%;
+    right: 15%;
+
+    position: absolute;
+    width: auto;
+    margin: auto
+}
+
+.modal-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal-title {
+
+}
+
+.modal-body {
+    position: absolute;
+    max-height: none;
+    overflow: auto;
+
+    /* this is the height of .modal-footer */
+    bottom: 74px;
+
+    /* this is the height of .modal-header */
+    top: 56px;
+}
+
+.modal-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* tablet-related styles */
+@media (max-width: 768px){
+    .modal-dialog {
+        right: 10%;
+        left: 10%;
+    }
+}
+
+/* phone-related styles */
+@media (max-width: 600px){
+    .modal-dialog {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}

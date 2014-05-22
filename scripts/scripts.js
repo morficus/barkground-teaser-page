@@ -8,7 +8,7 @@
 
 
     $('#js-send-form').click(function(){
-        debugger;
+        $('#js-thx-modal').modal('show');
     });
 
     $(window).scroll(function(){
@@ -17,7 +17,6 @@
         }else{
             $('#js-header').removeClass('is-small');
         }
-
     });
 
 

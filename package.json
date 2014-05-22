@@ -1,0 +1,19 @@
+{
+  "name": "barkground-teaser-page",
+  "version": "1.0.0",
+  "description": "Teaser page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morficus/barkground-teaser-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morficus/barkground-teaser-page/issues"
+  },
+  "homepage": "https://github.com/morficus/barkground-teaser-page"
+}

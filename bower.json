@@ -1,0 +1,21 @@
+{
+  "name": "barkground-teaser-page",
+  "version": "1.0.0",
+  "homepage": "https://github.com/morficus/barkground-teaser-page",
+  "authors": [
+    "Maurice Williams <morficus@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "jquery.scrollTo": "~1.4.12"
+  }
+}

@@ -1,0 +1,241 @@
+@import "../libs/bootstrap/dist/css/bootstrap.min.css";
+
+@font-face {
+    font-family: 'Hand Of Sean (Demo)';
+    src: url('http://www.fontsaddict.com/fontface/hand-of-sean-demo.ttf');
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.animate {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    transition-timing-function: ease;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.header {
+    height: 80px;
+    border-bottom: 5px solid #fbfbfb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.request-button {
+    background-color: #ee5a2f;
+    text-transform: uppercase;
+    height: 100%;
+    width: 210px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.request-button:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fbfbfb;
+    background-color: #28adba;
+}
+
+.logo {
+    height: 200px;
+}
+
+.header .logo {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.header.is-small {
+    height: 60px;
+}
+
+.header.is-small .request-button {
+    width: 180px;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.header.is-small .logo {
+    height: 120px;
+    margin-top: 15px;
+}
+
+.title {
+    font-family: 'Hand Of Sean (Demo)';
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.how-it-works {
+    margin: auto;
+    width: 720px;
+    text-align: center;
+}
+
+.how-it-works .title {
+    color: #186063;
+}
+
+.infographic {
+    width: 1024px;
+    margin-bottom: 90px;
+}
+
+.infographic img {
+    width: 100%;
+    margin: auto;
+}
+
+.get-your-check {
+    text-align: center;
+    text-transform: uppercase;
+    width: 880px;
+    margin: auto;
+
+    padding-top: 30px;
+    border-top: 8px solid #fbfbfb;
+}
+
+.get-your-check .subtitle {
+    color: #28adba;
+}
+
+.get-your-check p {
+    font-size: 15px;
+}
+
+.get-your-check hr {
+    border-color: #ee5a2f;
+    border-width: 8px;
+    width: 380px;
+}
+
+.get-your-check .promo {
+    text-transform: uppercase;
+}
+
+.get-your-check .promo-1 {
+    color: #28adba;
+}
+
+.get-your-check .promo-3 {
+    color: #ee5a2f;
+}
+
+.get-your-check .promo-4 {
+    font-size: 9px;
+    color: black;
+    margin-top: -10px;
+}
+
+.get-your-check .from-disclaimer {
+    color: #186063;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.get-your-check .request-button {
+    margin: auto;
+    height: 50px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.barkground-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Avenir';
+    margin-bottom: 30px;
+}
+
+.barkground-form legend {
+    border: none;
+    font-weight: 700;
+}
+
+.barkground-form dt {
+    padding-right: 10px;
+}
+
+.barkground-form dd {
+    margin-bottom: 5px;
+}
+
+.owner-info, .pet-info {
+    width: 50%;
+}
+
+
+.landlord-info {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.pet-info legend {
+    color: #28adba;
+}
+
+.owner-info legend {
+    color: #ee5a2f;
+}
+
+.landlord-info legend {
+    color: #186063;
+}
+
+.landlord-info dt {
+    width: 390px;
+}
+
+@media (max-width: 600px){
+    .header .logo {
+        margin-left: 0;
+        margin-top: 0 !important;
+        height: 105px !important;
+    }
+
+    .header.is-small .logo {
+        hight: 80px !important;
+    }
+
+    .content-section {
+        width: 100%;
+        padding: auto 8px;
+    }
+
+    .owner-info, .pet-info {
+        width: 100%;
+    }
+
+    .barkground-form dt {
+        width: 100%;
+    }
+
+    .get-your-check hr {
+        width: 150px;
+    }
+}

@@ -69,8 +69,12 @@ a:hover {
     background-color: #28adba;
 }
 
+.request-button[disabled]{
+    opacity: .65;
+}
+
 .logo {
-    height: 200px;
+    height: 140px;
 }
 
 .header .logo {
@@ -89,7 +93,7 @@ a:hover {
 }
 
 .header.is-small .logo {
-    height: 120px;
+    height: 80px;
     margin-top: 15px;
 }
 

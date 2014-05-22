@@ -76,16 +76,16 @@
                         <legend>Information about you:</legend>
                         <dl class="dl-horizontal">
                             <dt>first name</dt>
-                            <dd><input name="firstName"/></dd>
+                            <dd><input name="firstName" type="text"/></dd>
 
                             <dt>last name</dt>
-                            <dd><input name="lastName"/></dd>
+                            <dd><input name="lastName" type="text"/></dd>
 
                             <dt>phone</dt>
-                            <dd><input name="phone"/></dd>
+                            <dd><input name="phone" type="text"/></dd>
 
                             <dt>email</dt>
-                            <dd><input name="email"/></dd>
+                            <dd><input name="email" type="email"/></dd>
                         </dl>
                     </fieldset>
 
@@ -93,16 +93,16 @@
                         <legend>Information about your dog:</legend>
                         <dl class="dl-horizontal">
                             <dt>name</dt>
-                            <dd><input name="petName"/></dd>
+                            <dd><input name="petName" type="text"/></dd>
 
                             <dt>age</dt>
-                            <dd><input name="petAge"/></dd>
+                            <dd><input name="petAge" type="text"/></dd>
 
                             <dt>gender</dt>
-                            <dd><input name="petGender"/></dd>
+                            <dd><input name="petGender" type="text"/></dd>
 
                             <dt>breed</dt>
-                            <dd><input name="petBreed"/></dd>
+                            <dd><input name="petBreed" type="text"/></dd>
                         </dl>
                     </fieldset>
                     <div class="clearfix"></div>
@@ -112,21 +112,22 @@
                     <legend>Information about your current (or potential) landlord:</legend>
                     <dl class="dl-horizontal">
                         <dt>address of your rental property:</dt>
-                        <dd><input name="rentalAddress"/></dd>
+                        <dd><input name="rentalAddress" type="text"/></dd>
 
                         <dt>building name:</dt>
-                        <dd><input name="rentalBuildingName"/></dd>
+                        <dd><input name="rentalBuildingName" type="text"/></dd>
 
                         <dt>Landlord/Property Manager Name:</dt>
-                        <dd><input name="landlordName"/></dd>
+                        <dd><input name="landlordName" type="text"/></dd>
 
                         <dt>Landlord/Property Manager phone:</dt>
-                        <dd><input name="landlordPhone"/></dd>
+                        <dd><input name="landlordPhone" type="text"/></dd>
 
                         <dt>Landlord/Property Manager email:</dt>
-                        <dd><input name="landlordEmail"/></dd>
+                        <dd><input name="landlordEmail" type="email"/></dd>
                     </dl>
                 </fieldset>
+                <input name="mysteryField" type="text" class="hidden"/>
 
             </form>
 
@@ -135,7 +136,7 @@
                 purpose of obtaining further information to complete your BarkGround Check.
             </p>
 
-            <div class="request-button" id="js-send-form">
+            <div data-loading-text="Submitting your BarkGround request..." class="request-button" id="js-send-form">
                 Request BarkGround Check
             </div>
 

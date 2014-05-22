@@ -219,7 +219,11 @@ p {
     }
 
     .header.is-small .logo {
-        hight: 80px !important;
+        height: 80px !important;
+    }
+
+    .header.is-small .request-button {
+        padding: 8px;
     }
 
     .content-section {

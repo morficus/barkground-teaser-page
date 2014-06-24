@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/morficus/barkground-teaser-page/issues"
   },
-  "homepage": "https://github.com/morficus/barkground-teaser-page"
+  "homepage": "https://github.com/morficus/barkground-teaser-page",
+  "dependencies": {
+    "bower": "^1.3.5"
+  }
 }

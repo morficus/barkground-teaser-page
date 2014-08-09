@@ -34,7 +34,7 @@ $mandrill = new Mandrill('BSrblF2hxBD591WpryQ1ww');
                 'type' => 'to'
             ),
             array(
-                'email' => 'Hello@kylerothfus.com',
+                'email' => 'kyle@barkground.com',
                 'name' => 'Kyle R.',
                 'type' => 'to'
             )

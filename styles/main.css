@@ -58,6 +58,10 @@
     cursor: pointer;
 }
 
+.header .request-button {
+    padding-top: 25px;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -89,7 +93,7 @@ a:hover {
 .header.is-small .request-button {
     width: 180px;
     font-size: 12px;
-    padding-top: 8px;
+    padding-top: 15px;
 }
 
 .header.is-small .logo {
@@ -118,12 +122,14 @@ p {
 }
 
 .infographic {
-    width: 1024px;
+    /*width: 1024px;*/
+    text-align: center;
     margin-bottom: 90px;
 }
 
 .infographic img {
-    width: 100%;
+    width: 800px;
+    height: auto;
     margin: auto;
 }
 
@@ -172,13 +178,15 @@ p {
 .get-your-check .from-disclaimer {
     color: #186063;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 12px;
+    margin: 15px auto;
+    text-align: center;
+    width: 50%;
 }
 
 .get-your-check .request-button {
     margin: auto;
     height: 50px;
-    padding: 5px;
     font-size: 14px;
 }
 
@@ -189,11 +197,19 @@ p {
     font-size: 18px;
     font-family: 'Avenir';
     margin-bottom: 30px;
+    width: 50%;
+    margin: auto;
 }
 
 .barkground-form legend {
     border: none;
     font-weight: 700;
+
+    color: #ee5a2f;
+}
+
+.barkground-form .dl-horizontal {
+    margin-bottom: 0;
 }
 
 .barkground-form dt {
@@ -214,6 +230,7 @@ p {
     margin-top: 12px;
 }
 
+
 .pet-info legend {
     color: #28adba;
 }
@@ -231,6 +248,12 @@ p {
 }
 
 @media (max-width: 600px){
+
+    p {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
     .header .logo {
         margin-left: 0;
         margin-top: 0 !important;
@@ -250,7 +273,7 @@ p {
         padding: auto 8px;
     }
 
-    .owner-info, .pet-info {
+    .form-section {
         width: 100%;
     }
 
@@ -264,5 +287,14 @@ p {
 
     .social-icon {
         height: 40px;
+    }
+
+    .infographic img {
+        width: 100%;
+    }
+
+    .barkground-form {
+        width: 90%;
+        margin-left: 10%;
     }
 }

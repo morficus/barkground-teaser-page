@@ -19,61 +19,51 @@
                 your browser</a> to improve your experience and security.
         </div>
         <![endif]-->
-        <img class="logo animate" src="images/logo.png" alt="BackGround"/>
+        <img class="logo animate" src="images/logo-header.png" alt="BackGround"/>
         <a href="#barkground-form" class="pull-right request-button animate" id="js-go-to-form">
-            Request BarkGround Check
+            Learn More
         </a>
     </div>
 
     <div class="main-container">
         <div class="how-it-works content-section">
-            <h2 class="title">How it works</h2>
+            <h2 class="title">Launching Spring 2015</h2>
 
             <p>
-                When you include a BarkGround Check with your rental application, it provides a landlord with peace of
-                mind that they can welcome your dog without hesitation.
+                BarkGround provides landlords with peace of mind with verified third-party information about a dog's history of behavior, training and health.
             </p>
 
             <p>
-                Additionally, your BarkGround Check can provide you with personalized recommendations for ways to
-                improve your chances of getting your dog approved for the apartment or home of your dreams, and you will
-                also be eligible for discounts and special offers at dog-friendly businesses in the BarkGround network.
+                A BarkGround Check helps a landlord make a well-informed decision about a potential four-legged tenant with more information than just the dog’s breed and size. Plus, it provides dog owners with personalized recommendations for ways to become more responsible dog owners and makes them eligible for discounts and special offers at dog-friendly businesses in the BarkGround network.
             </p>
+
         </div>
-        <div class="infographic content-section">
-            <img src="images/Infographic.png" alt="follow-the-path"/>
+        <div class="infographic content-section" >
+            <!--<img src="images/Infographic.png" alt="follow-the-path"/>-->
+            <img src="images/Barkground-Brochure-1.png" alt="what we help you avoid" />
+            <img src="images/Barkground-Brochure-2.png" alt="3 easy steps" />
+            <img src="images/Barkground-Brochure-3.png" alt="we look at everything for you" />
         </div>
 
+        <a id="barkground-form"></a>
         <div class="get-your-check content-section">
-            <a id="barkground-form"></a>
 
-            <h2 class="title">Get your barkground check</h2>
+
+            <h2 class="title">Stay informed about our launch</h2>
             <hr/>
 
-            <h3 class="subtitle">for a limited time</h3>
-
-            <p class="promo-1">Receive a FREE BarkGround Check through September 30, 2014</p>
+            <!--<h3 class="subtitle"></h3>-->
 
             <p class="promo-2">
-                Receive special perks and rewards, and give your landlord peace of mind with a report about your dog's
-                history of good behavior, training and health.
-            </p>
-
-            <p class="promo-3">
-                Please provide us with some simple information so that we can get your BarkGround Check started.
-            </p>
-
-            <p class="promo-4">
-                We will only use this information to process your requests. We will NEVER sell, share, or distribute
-                your personal information without your consent.
+                Landlords can also add their dog-friendly rentals to our database of available properties for free by using the form at the bottom of the page.
             </p>
 
 
             <form class="barkground-form" id="js-form">
 
                 <div>
-                    <fieldset class="pull-left form-section owner-info">
-                        <legend>Information about you:</legend>
+                    <fieldset class="form-section">
+                        <!--<legend>Information about you:</legend>-->
                         <dl class="dl-horizontal">
                             <dt>first name</dt>
                             <dd><input name="firstName" type="text"/></dd>
@@ -81,63 +71,54 @@
                             <dt>last name</dt>
                             <dd><input name="lastName" type="text"/></dd>
 
-                            <dt>phone</dt>
-                            <dd><input name="phone" type="text"/></dd>
-
                             <dt>email</dt>
                             <dd><input name="email" type="email"/></dd>
+
+                            <dt></dt>
+                            <dd></dd>
                         </dl>
                     </fieldset>
 
-                    <fieldset class="pull-right form-section pet-info">
-                        <legend>Information about your dog:</legend>
+                    <br/>
+                    <fieldset class="form-section">
+                        <legend>Are you a landlord?
+                            <p>Please share some information about your rental property</p>
+                        </legend>
+
                         <dl class="dl-horizontal">
-                            <dt>name</dt>
-                            <dd><input name="petName" type="text"/></dd>
+                            <dt>address</dt>
+                            <dd><input name="propertyAddress" type="text"></dd>
 
-                            <dt>age</dt>
-                            <dd><input name="petAge" type="text"/></dd>
+                            <dt>zip code</dt>
+                            <dd><input name="propertyZip" type="text"></dd>
 
-                            <dt>gender</dt>
-                            <dd><input name="petGender" type="text"/></dd>
+                            <dt>management</dt>
+                            <dd><input name="propertyManagementCompany" type="text"></dd>
 
-                            <dt>breed</dt>
-                            <dd><input name="petBreed" type="text"/></dd>
+                            <dt>building name</dt>
+                            <dd><input name="propertyBuildingName" type="text"></dd>
+
+                            <dt>phone</dt>
+                            <dd><input name="propertyPhone" type="text"></dd>
+
+                            <dt>website</dt>
+                            <dd><input name="propertyWebsite" type="text"></dd>
                         </dl>
                     </fieldset>
+
+
+                    <input name="mysteryField" type="text" class="hidden"/>
                     <div class="clearfix"></div>
                 </div>
-
-                <fieldset class="form-section landlord-info">
-                    <legend>Information about your current (or potential) landlord:</legend>
-                    <dl class="dl-horizontal">
-                        <dt>address of your rental property:</dt>
-                        <dd><input name="rentalAddress" type="text"/></dd>
-
-                        <dt>building name:</dt>
-                        <dd><input name="rentalBuildingName" type="text"/></dd>
-
-                        <dt>Landlord/Property Manager Name:</dt>
-                        <dd><input name="landlordName" type="text"/></dd>
-
-                        <dt>Landlord/Property Manager phone:</dt>
-                        <dd><input name="landlordPhone" type="text"/></dd>
-
-                        <dt>Landlord/Property Manager email:</dt>
-                        <dd><input name="landlordEmail" type="email"/></dd>
-                    </dl>
-                </fieldset>
-                <input name="mysteryField" type="text" class="hidden"/>
 
             </form>
 
             <p class="from-disclaimer">
-                By submitting this form, you agree that we may contact you by telephone, email, or other means for the
-                purpose of obtaining further information to complete your BarkGround Check.
+                By submitting this form, you agree that we may contact you by phone or email. We will never sell, share or distribute your personal information without your consent.
             </p>
 
             <div data-loading-text="Submitting your BarkGround request..." class="request-button" id="js-send-form">
-                Request BarkGround Check
+                Stay Informed
             </div>
 
         </div>
@@ -152,7 +133,7 @@
             <img src="images/twitter-logo.png" class="social-icon" alt="twitter-link" />
         </a>
         <br/>
-        &copy; 2014 Barkground
+        &copy; 2015 BarkGround
     </div>
 
     <div class="modal fade" id="js-thx-modal">
@@ -164,11 +145,25 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        Thank you for requesting your BarkGround Check. We will contact you within 24 hours to complete the process.
+                        Thank you for sharing your interest in our launch! Watch your Inbox for updates, and Like us on Facebook at <a href="https://www.facebook.com/BarkGround">www.facebook.com/BarkGround</a> for even more information and special offers.
                     </p>
+
                     <p>
-                        If you have questions before you hear from us, please do not hesitate to contact us at <a href="mailto:Info@BarkGround.com">Info@BarkGround.com</a>
+                        If you submitted information about your rental property, we will follow up with you to confirm some details and answer any questions you might have.
                     </p>
+
+                    <p>
+                        If you have questions before you hear from us, please do not hesitate to contact us at <a href="mailto:hello@BarkGround.com">hello@BarkGround.com</a>
+                    </p>
+
+                    <p>
+                        Thanks for showing your support!
+                    </p>
+
+                    <a href="http://www.BarkGround.com" style="display: block; text-align: center;">
+                        <img src="images/logo-header.png">
+                    </a>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
